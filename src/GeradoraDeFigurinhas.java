@@ -3,19 +3,21 @@ import java.awt.Font;
 import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
 import java.io.File;
+import java.io.InputStream;
 
 import javax.imageio.ImageIO;
 
 public class GeradoraDeFigurinhas {
 
-    public void cria() throws Exception {
+    public void cria(InputStream inputStream, String nomeArquivo) throws Exception {
 
-        // InputStream imagemOriginal = new FileInputStream();
+        // InputStream inputStream =
+        // new FileInputStream(new File("entrada/filme.jpg"));
         // InputStream inputStream =
         // new
         // URL("https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@.jpg").openStream();
 
-        BufferedImage imagemOriginal = ImageIO.read(new File("entrada/filme.jpg"));
+        BufferedImage imagemOriginal = ImageIO.read(inputStream);
         int largura = imagemOriginal.getWidth();
         int altura = imagemOriginal.getHeight();
         int novaAltura = altura + 200;
@@ -30,11 +32,7 @@ public class GeradoraDeFigurinhas {
 
         graphics.drawString("TEXTO", 50, novaAltura - 100);
 
-        ImageIO.write(novaImagem, "png", new File("saida/figurinha.png"));
+        ImageIO.write(novaImagem, "png", new File(nomeArquivo));
     }
 
-    public static void main(String[] args) throws Exception {
-        var geradora = new GeradoraDeFigurinhas();
-        geradora.cria();
-    }
 }
