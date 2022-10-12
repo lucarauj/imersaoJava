@@ -7,12 +7,15 @@ public class App {
 
         // fazer uma conexão http
 
-        String url = "https://imdb-api.com/en/API/Top250Movies/k_1b068n02";
-        ExtratorDeConteudo extrator = new ExtratorDeConteudoDoImdb();
+        // String url = "https://imdb-api.com/en/API/Top250Movies/k_1b068n02";
+        // ExtratorDeConteudo extrator = new ExtratorDeConteudoDoImdb();
 
         // String url =
         // "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date=2022-06-12&end_date=2022-06-14";
         // ExtratorDeConteudo extrator = new ExtratorDeConteudoDaNasa();
+
+        String url = "http://localhost:8080/linguagens";
+        ExtratorDeConteudo extrator = new ExtratorDeConteudoDoImdb();
 
         var http = new ClienteHttp();
         String json = http.buscaDados(url);
