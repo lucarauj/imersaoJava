@@ -14,7 +14,8 @@ public class App {
         // "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date=2022-06-12&end_date=2022-06-14";
         // ExtratorDeConteudo extrator = new ExtratorDeConteudoDaNasa();
 
-        String url = "http://localhost:8080/linguagens";
+        // String url = "http://localhost:8080/linguagens";
+        String url = "https://lucarauj-linguagens-api.herokuapp.com/linguagens";
         ExtratorDeConteudo extrator = new ExtratorDeConteudoDoImdb();
 
         var http = new ClienteHttp();
@@ -24,7 +25,7 @@ public class App {
         List<Conteudo> conteudos = extrator.extraiConteudos(json);
         var geradora = new GeradoraDeFigurinhas();
 
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 5; i++) {
 
             Conteudo conteudo = conteudos.get(i);
 
