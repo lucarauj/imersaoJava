@@ -30,6 +30,19 @@ ImersãoJava – É uma semana de aulas intensas de Devs para Devs, evento organ
 
 - Fazer o deploy na nuvem e gerar figurinhas a partir do conteúdo da API no Heroku.
 
+================================================================================
+
+![JSON](https://raw.githubusercontent.com/lucarauj/assets/main/Json.png)
+
+================================================================================
+
+![NASA](https://raw.githubusercontent.com/lucarauj/assets/main/Find.png)
+
+================================================================================
+
+![FIGURINHAS](https://raw.githubusercontent.com/lucarauj/assets/main/figurinha.png)
+
+================================================================================
 
 # Linguagem utilizada
 
