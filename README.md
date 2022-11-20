@@ -6,7 +6,7 @@
 
 ### ImersãoJava – É uma semana de aulas intensas de Devs para Devs, evento organizado pela [Alura](https://www.alura.com.br).
 
-[https://lucarauj-linguagens-api.herokuapp.com/linguagens]
+### Endereço do projeto: [https://lucarauj-linguagens-api.herokuapp.com/linguagens]
 
 ## O projeto consistiu nas seguintes etapas:
 
@@ -46,21 +46,22 @@
 
 # Linguagem utilizada
 
-- Java
+- Java <img align="center" alt="Lucarauj-Java" height="50" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg">
 
 # Ferramentas 
 
-- Spring initializr
-- MongoDB
-- Postman
-- Heroku
-- VS Code
-- Git/Github
+- Spring initializr <img align="center" alt="Lucarauj-Spring" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg">
+- MongoDB <img align="center" alt="Lucarauj-Mongo" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg">
+- Postman <img align="center" alt="Lucarauj-Postman" height="50" width="80" src="https://github.com/lucarauj/assets/blob/main/postman.png">
+- Heroku <img align="center" alt="Lucarauj-Heroku" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain.svg">
+- VS Code <img align="center" alt="Lucarauj-VSCode" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg">
+- Git/Github <img align="center" alt="Lucarauj-Git" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">
 
 
-# Autor
+## Autor
 
-Lucas Araujo
+### Lucas Araujo
 
-https://www.linkedin.com/in/lucarauj
+<a href="https://www.linkedin.com/in/lucarauj"><img alt="lucarauj | LinkdeIN" width="40px" src="https://user-images.githubusercontent.com/43545812/144035037-0f415fc7-9f96-4517-a370-ccc6e78a714b.png" /></a>
+
 
