@@ -4,9 +4,9 @@
 
 ## Sobre o projeto
 
-### ImersãoJava – É uma semana de aulas intensas de Devs para Devs, evento organizado pela [Alura](https://www.alura.com.br).
+### ImersãoJava – É uma semana de aulas intensas de Devs para Devs, evento organizado pela Alura.
 
-### Endereço do projeto: [https://lucarauj-linguagens-api.herokuapp.com/linguagens]
+### [CLIQUE AQUI E VEJA O PROJETO](https://lucarauj-linguagens-api.herokuapp.com/linguagens)
 
 ## O projeto consistiu nas seguintes etapas:
 
